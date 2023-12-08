@@ -1,3 +1,6 @@
+// Adrián Fernández Rodríguez
+// https://github.com/adriferro/Tarea4_DWEC_DIW.git
+
 import { Product } from "./products.js";
 import { ProductManager } from "./productsManager.js";
  
