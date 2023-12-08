@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('/assets/fonts/Oswald.ttf');
+  }
+
+@font-face {
+    font-family: 'Arsenal';
+    src: url('/assets/fonts/Arsenal.ttf');
+  }
+
+body{
+    background: rgb(255,255,255);
+    background-image: url(/assets/img/muro-hormigon-gris.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: Oswald;
+    font-size: 100px;
+}
+
+table{
+    margin: 0 auto;
+    padding: 1rem;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.search{
+    margin-bottom: 1rem;
+}
+
+form{
+    margin-bottom: 1rem;
+}
+
+th{
+    font-family: Oswald;
+    padding: 1rem;
+    text-decoration: underline;
+    background: linear-gradient(rgb(255, 0, 0),rgb(255, 255, 255));
+}
+
+button{
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Oswald;
+    font-weight: 600;
+    text-decoration: solid;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(181, 181, 181);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+input{
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Arsenal;
+    font-size: 17px;
+}
+
+tbody{
+    font-family: Arsenal;
+    font-weight: 600;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 1px solid black;
+    margin: 8px;
+    text-align: center;
+}
+
+.table-inventory tr:hover{
+    background-color: rgb(181, 181, 181);
+}
+
+#editButton{
+    margin-left: 10px;
+}
+
+.espace{
+    height: 6rem;
+}
+
+
+.text-pattern {  
+    color: transparent;
+    background-color: red;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(0, 0, 0, 0.5) 25px, rgba(255, 255, 255, 0.5) 50px);
+     -webkit-background-clip: text;
+      background-clip: text;   
+    animation: color 50s linear infinite; 
+    background-size: 200%;  
+  }
+  
+  @keyframes color {
+    from { 
+      background-position: 0% 50%;
+    }
+    to { 
+      background-position: 100% 50%; 
+    }
+  }
+
+
+
+  .imaT{
+    animation: ima 1.5s ease 0s infinite normal forwards;
+    width: 15rem;
+  }
+
+  @keyframes ima {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
