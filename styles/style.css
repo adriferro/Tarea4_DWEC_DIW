@@ -32,6 +32,12 @@ table{
     margin-bottom: 10px;
 }
 
+label{
+  font-family: Arsenal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .search{
     margin-bottom: 1rem;
 }
@@ -45,6 +51,7 @@ th{
     padding: 1rem;
     text-decoration: underline;
     background: linear-gradient(rgb(255, 0, 0),rgb(255, 255, 255));
+    font-size: 20px;
 }
 
 button{
@@ -88,6 +95,7 @@ th, td {
     padding: 1px solid black;
     margin: 8px;
     text-align: center;
+    font-size: 20px;
 }
 
 .table-inventory tr:hover{
